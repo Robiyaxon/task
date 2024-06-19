@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "./Header.module.css"
-import { Col, Row } from 'antd';
+
 import { Button } from 'antd';
 import img from "../../assest/peopleheader.png"
 const Header = () => {
