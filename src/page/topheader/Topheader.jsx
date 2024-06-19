@@ -10,19 +10,19 @@ function Topheader() {
             <div className={click ? "main-container" : ""} onClick={() => Close()} />
             <nav className="navbar" onClick={e => e.stopPropagation()}>
                 <div className="nav-container">
-                    <a href="" className="nav-logo"><img src={logo} alt="" /></a>
+                    <a href=".#" className="nav-logo"><img src={logo} alt="" /></a>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <a href="" className="nav-links"> Features</a>
+                            <a href=".#" className="nav-links"> Features</a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-links"> About us</a>
+                            <a href=".#" className="nav-links"> About us</a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-links">Pricing</a>
+                            <a href=".#" className="nav-links">Pricing</a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-links">Feedback</a>
+                            <a href=".#" className="nav-links">Feedback</a>
                         </li>
                         <div className="button_for_responce">
                         <button className="topHeader_button">Request a demo</button>
