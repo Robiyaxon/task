@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Wrapper {
+    padding: 48px 145px 0 165px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Wrapper h1 {
+    width: 550px;
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.Wrapper p {
+    font-size: 24px;
+    color: #BDBDBD;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.img img {
+    width: 100%;
+}
+
+.img {
+    width: 47%;
+}
+
+.button {
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button button {
+    width: 225px;
+    height: 75px;
+    border-radius: 8px;
+    font-size: 24px;
+    background-color: #FF7235 !important;
+}
+
+.button h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+@media (min-width: 0) and (max-width: 600px) {
+    .Wrapper {
+        padding: 2rem 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Wrapper h1 {
+        width: 100%;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .Wrapper p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .img {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .button {
+        display: block;
+        text-align: center;
+    }
+    .button button {
+        width: 180px;
+        height: 40px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .button h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 950px) {
+    .Wrapper {
+        padding: 3rem 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Wrapper h1 {
+        width: 100%;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .Wrapper p {
+        font-size: 22px;
+        text-align: center;
+    }
+    .img {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .button button {
+        width: 195px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .button h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1200px) {
+    .Wrapper {
+        padding: 4rem 50px;
+    }
+    .Wrapper h1 {
+        width: 100%;
+        font-size: 72px;
+        line-height: 72px;
+    }
+    .Wrapper p {
+        font-size: 20px;
+    }
+    .img {
+        width: 45%;
+    }
+    .button button {
+        width: 200px;
+        height: 60px;
+        font-size: 22px;
+    }
+    .button h2 {
+        font-size: 22px;
+    }
+}
+

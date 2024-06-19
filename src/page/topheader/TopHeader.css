@@ -1,0 +1,155 @@
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    padding: 48px 145px 0 165px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-logo {
+    color: #f5b921;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    color: #292830;
+    text-decoration: none;
+    height: 100%;
+    margin-right: 53px;
+    border-bottom: 3px solid transparent;
+}
+
+.fa-code {
+    margin-left: 1rem;
+}
+
+.nav-item {
+    line-height: 40px;
+}
+
+.nav-item:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+    width: 100%;
+    background: #f5b921;
+}
+
+.nav-item.active {
+    color: #ffdd40;
+    border: 1px solid #ffdd40;
+}
+
+.nav-icon {
+    display: none;
+}
+
+.topHeader_button {
+    width: 160px;
+    height: 48px;
+    margin-left: 180px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #FF7235;
+    background-color: transparent;
+    color: #FF7235;
+    font-size: 18px;
+    font-family: Hind Siliguri;
+    line-height: 17.1px;
+}
+
+@media screen and (max-width: 1250px) {
+.button_for_responce{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+    .topHeader_button {
+        width: 40%;
+        margin-left: 0;
+       left: 0;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1px solid #fff;
+        position: absolute;
+        top: 60px;
+        left: -110%;
+        opacity: 1;
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: rgba(0, 0, 0, 0.3);
+        padding: 0;
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-item .active {
+        color: #ffdd40;
+        border: none;
+    }
+
+    .nav-links {
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+    }
+
+    .navbar {
+        padding: 0 3rem;
+        background-color: #FF7235;
+    }
+
+    .nav-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #ffdd40;
+    }
+}

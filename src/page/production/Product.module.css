@@ -1,0 +1,35 @@
+.Wrapper {
+    margin-top: 10rem;
+}
+
+.product_image {
+    width: 100%;
+
+}
+
+.popular_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 188px;
+
+}
+
+.popular_logo img {
+    margin: 0 49px;
+    cursor: pointer;
+}
+
+@media (min-width:0) and (max-width:1150.9px) {
+    .popular_logo {
+        overflow: auto;
+        height: auto;
+        margin-top: 3rem;
+
+    }
+
+    .Wrapper {
+        margin-top: 3rem;
+    }
+
+}
