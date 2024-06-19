@@ -11,7 +11,7 @@ const Save = () => {
                 <p >Alwalys online</p>
                 <h1 >Save cost for you and family</h1>
                 <h2>Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.</h2>
-                <a href="">Learn more →</a>
+                <a href=".#">Learn more →</a>
             </div>
         </div>
     )
